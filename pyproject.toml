@@ -8,7 +8,8 @@ authors = ["Spookdot <333.333.333@gmx.de>"]
 python = "^3.10"
 "discord.py" = {git = "https://github.com/Rapptz/discord.py"}
 python-dotenv = "^0.20.0"
-pixel-pyme = {path = "../pixel-pyme"}
+pixel-pyme = {git = "https://github.com/spookdot/pixel-pyme"}
+Pillow = "^9.1.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

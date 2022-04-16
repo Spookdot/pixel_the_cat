@@ -205,8 +205,10 @@ typing-extensions = "^4.1.1"
 validators = "^0.18.2"
 
 [package.source]
-type = "directory"
-url = "../pixel-pyme"
+type = "git"
+url = "https://github.com/spookdot/pixel-pyme"
+reference = "master"
+resolved_reference = "d66a3f1dd3974c4c70b6cbe18fde82a02be4b3ab"
 
 [[package]]
 name = "pluggy"
@@ -341,7 +343,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "9bce324040334de47ebc14c43499e53a79b5ed88f34abfdfff8ef1bcdaaa6775"
+content-hash = "319b8ba46d3875982d07d247d7c2114fe8d35cd88e9245a1fafc2385b326f62f"
 
 [metadata.files]
 aiohttp = [
