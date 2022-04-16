@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pixel-the-cat"
+version = "0.1.0"
+description = ""
+authors = ["Spookdot <333.333.333@gmx.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+"discord.py" = {git = "https://github.com/Rapptz/discord.py"}
+python-dotenv = "^0.20.0"
+pixel-pyme = {path = "../pixel-pyme"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
